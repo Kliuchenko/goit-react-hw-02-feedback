@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import Section from './Feedback/Section';
+import Section from './Section/Section';
 import FeedbackOptions from './Feedback/FeedbackOptions';
-import Statistics from './Feedback/Statistics';
-import Notification from './Feedback/Notification';
+import Statistics from './Statistics/Statistics';
+import Notification from './Notification/Notification';
 
 export class App extends Component {
   state = {
